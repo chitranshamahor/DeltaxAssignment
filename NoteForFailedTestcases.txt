@@ -1,0 +1,22 @@
+1)
+
+Enter mandatory fields : Confirm Password : " TestingAuto1"	Value entered and should throw error password mismatch	Failed	Password missmatch should not be allowed
+
+2)
+
+Enter invalid values in required field First Name : "A" or "1" or "11" or "@" or "!!"	Validation should be present " This value is not valid"	Failed	Failed for "11"or "!!"
+
+
+3) 
+
+Enter invalid values in required field Last Name : "A" or "1" or "11" or "@" or "!!"	Validation should be present " This value is not valid"	Failed	Failed for "11"or "!!"
+
+
+4)
+
+Enter invalid values in required field  Email : "abc" or "abc@gmail" or "abcd.com" 	Validation should be present " This value is not valid"	Failed	Falied for "abc@gmail" or "abcd.com" 
+
+
+5)
+
+Enter invalid values in  field  Contact No : "abcd111111" or "TestingAut" or "Testing@Aut" or "Testing@13"	Validation should be present " This value is not valid"	Failed	Failed for  "abcd111111" and ""TestingAut" and "Testing@13"
